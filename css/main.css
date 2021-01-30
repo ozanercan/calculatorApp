@@ -1,0 +1,51 @@
+@font-face {
+    font-family: digitalFont;
+    src: url(../fonts/digital-7.ttf);
+}
+
+.container{
+    margin-top: 2%;
+    width:50%;
+    background-color: #333333;
+}
+
+@media only screen and (max-width: 815px) {
+    .container{
+        width: 100%;
+    }
+  }
+
+
+#indicator{
+    background-color: #d2dbbc;
+    height: 50px;
+    color: #30332f;
+    font-family: digitalFont;
+}
+
+.row{
+    margin-top: 5px;
+    height: 15vh;
+}
+
+.btn{
+    padding: 25px;
+    width: 100%;
+    transition: background-color 0.5s ease;
+    font-size: 2rem;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color:white;
+}
+.btn-operation, .btn-equal{
+    background-color: #7ca4a6;
+}
+.btn-number{
+    background-color: #a7a7a7;
+    color:  #30332f;
+}
+
+.btn-reset{
+    background-color: #a42324;
+}
